@@ -807,7 +807,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505285526681</updated>
-      <workItem from="1505285535062" duration="10747000" />
+      <workItem from="1505285535062" duration="10768000" />
     </task>
     <task id="LOCAL-00001" summary="添加LinkedList如下方法:&#10;1. toArray&#10;2. add&#10;3. addFirst">
       <created>1505296414082</created>
@@ -816,7 +816,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505296414082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加LinkedList如下方法:&#10;1. toArray&#10;2. add&#10;3. addFirst">
+      <created>1505296494485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505296494485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -852,7 +859,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10747000" />
+    <option name="totallyTimeSpent" value="10768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
