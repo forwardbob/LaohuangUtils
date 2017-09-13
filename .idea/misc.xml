@@ -10,9 +10,6 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/../LaohuangUtils/out" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\腼腆的老黄\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
