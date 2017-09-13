@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6782a623-b643-44dc-8c91-ced395dc7310" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LaohuangUtils/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LaohuangUtils/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LaohuangUtils/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LaohuangUtils/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LaohuangUtils/src/main/java/cn/whitecao/base/List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LaohuangUtils/src/main/java/cn/whitecao/base/impl/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LaohuangUtils/src/test/java/cn/whitecao/base/impl/LinkedListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LaohuangUtils/.idea/misc.xml" afterPath="$PROJECT_DIR$/../LaohuangUtils/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LaohuangUtils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LaohuangUtils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LaohuangUtils/LaohuangUtils.iml" afterPath="$PROJECT_DIR$/../LaohuangUtils/LaohuangUtils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LaohuangUtils/pom.xml" afterPath="$PROJECT_DIR$/../LaohuangUtils/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../LaohuangUtils/out/" />
     <ignored path="$PROJECT_DIR$/../LaohuangUtils/target/" />
@@ -817,8 +807,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505285526681</updated>
-      <workItem from="1505285535062" duration="10601000" />
+      <workItem from="1505285535062" duration="10747000" />
     </task>
+    <task id="LOCAL-00001" summary="添加LinkedList如下方法:&#10;1. toArray&#10;2. add&#10;3. addFirst">
+      <created>1505296414082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505296414082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -854,7 +852,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10601000" />
+    <option name="totallyTimeSpent" value="10747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,6 +904,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加LinkedList如下方法:&#10;1. toArray&#10;2. add&#10;3. addFirst" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加LinkedList如下方法:&#10;1. toArray&#10;2. add&#10;3. addFirst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
