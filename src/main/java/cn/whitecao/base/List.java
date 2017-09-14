@@ -25,9 +25,6 @@
 
 package cn.whitecao.base;
 
-
-import java.util.Collection;
-
 public interface List<E> {
 
     boolean add(E e);
@@ -36,6 +33,14 @@ public interface List<E> {
 
     Object[] toArray();
 
+    E getFirst();
 
+    E getLast();
+
+    E get(int index);
+
+    boolean remove(Object o);
+
+    E remove(int index);
 
 }
