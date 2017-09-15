@@ -29,7 +29,7 @@ public class LinkedListTest {
     @Test
     public void addFirst() throws Exception {
         list=new LinkedList<Integer>();
-        for (int i=100000;i>0;i--) {
+        for (int i=1000;i>0;i--) {
             list.addFirst(i);
         }
         System.out.println(list.size());
@@ -38,7 +38,7 @@ public class LinkedListTest {
     @Test
     public void add() throws Exception {
         List<Integer> list=new LinkedList<Integer>();
-        for (int i=0;i<100000;i++) {
+        for (int i=0;i<1000;i++) {
 
             list.add(i);
         }
@@ -63,5 +63,6 @@ public class LinkedListTest {
         linkedList.add(2);
         linkedList.add(3);
         linkedList.removeFirst();
+        new String("");
     }
 }
