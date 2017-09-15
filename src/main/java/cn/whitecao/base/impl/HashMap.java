@@ -19,7 +19,8 @@ public class HashMap<K, V> implements Map<K, V> {
     private int useSize;
     //定义map
     private Entry<K, V>[] table = null;
-
+    //单独定义一个key=null的entry
+    Entry <K,V> noKeyEntry=new Entry<K, V>(null,null,null);
     public HashMap() {
         //传说中的门面模式
         this(defaultLength, defaultAddSizeFactory);
@@ -39,6 +40,10 @@ public class HashMap<K, V> implements Map<K, V> {
 
 
     public V put(K k, V v) {
+        if (k==null){
+            noKeyEntry.v=v;
+            return v;
+        }
         if (useSize > defaultLength * defaultAddSizeFactory) {
             up2size();
         }
@@ -58,6 +63,9 @@ public class HashMap<K, V> implements Map<K, V> {
     }
 
     public V get(K key) {
+        if (key==null){
+           return noKeyEntry.v;
+        }
         int index = getTableIndex(key, table.length);
         if (table[index]==null){
             return null;
@@ -146,18 +154,20 @@ public class HashMap<K, V> implements Map<K, V> {
 
     public static void main(String[] args) {
         Map map = new HashMap();
-       for (int i=0;i<100000;i++) {
-           System.out.println("key"+i);
-          map.put("key"+i,i);
-       }
-        for (int i=0;i<100000;i++) {
-            System.out.println(map.get("key"+i));
-        }
+//        for (int i = 0; i < 100000; i++) {
+//            System.out.println("key" + i);
+//            map.put("key" + i, i);
+//        }
+//        for (int i = 0; i < 100000; i++) {
+//            System.out.println(map.get("key" + i));
+//        }
+        map.put(null,1);
+        System.out.println(map.get(null));
     }
 
     class Entry<K, V> implements Map.Entry<K, V> {
-        K k;
-        V v;
+        private K k;
+        private V v;
         Entry<K, V> next;
 
         public Entry(K k, V v, Entry next) {
