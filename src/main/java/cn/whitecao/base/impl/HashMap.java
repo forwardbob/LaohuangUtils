@@ -154,15 +154,21 @@ public class HashMap<K, V> implements Map<K, V> {
 
     public static void main(String[] args) {
         Map map = new HashMap();
-//        for (int i = 0; i < 100000; i++) {
-//            System.out.println("key" + i);
-//            map.put("key" + i, i);
-//        }
-//        for (int i = 0; i < 100000; i++) {
-//            System.out.println(map.get("key" + i));
-//        }
-        map.put(null,1);
-        System.out.println(map.get(null));
+        for (int i = 0; i < 10000000; i++) {
+            map.put("key" + i, i);
+        }
+        long startTime = System.currentTimeMillis();
+        System.out.println("start:"+startTime);
+
+
+        map.get("key1000000");
+
+
+        long endTime = System.currentTimeMillis();
+        System.out.println("endTime:"+endTime);
+
+        System.out.println(endTime - startTime);
+
     }
 
     class Entry<K, V> implements Map.Entry<K, V> {
